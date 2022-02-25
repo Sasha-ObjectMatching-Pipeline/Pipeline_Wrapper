@@ -5,10 +5,10 @@ docker-compose --profiles first_run up
 ```
 
 This will start all the necessary containers. They are:
-- [voxblox](https://github.com/ethz-asl/voxblox) 
-- [sparseconvnet](https://rgit.acin.tuwien.ac.at/edith-langer/sparseconvnet/-/tree/robot_experiments)
-- [table_extractor](https://rgit.acin.tuwien.ac.at/leitnermrks/table_extractor)
-- [png_to_klg](https://rgit.acin.tuwien.ac.at/leitnermrks/png_to_klg)
+- [voxblox](https://github.com/Sasha-ObjectMatching-Pipeline/voxblox) 
+- [sparseconvnet](https://github.com/Sasha-ObjectMatching-Pipeline/sparseconvnet_ros)
+- [table_extractor](https://github.com/Sasha-ObjectMatching-Pipeline/table_extractor)
+- [png_to_klg](https://github.com/Sasha-ObjectMatching-Pipeline/png_to_klg)
 - [elasticfusion](https://github.com/edith-langer/ElasticFusion.git )
 
 The ```.env``` file is used to set the correct variables for ```ROS_IP``` , ```ROS_MASTER_URI```  and the ```shared folder path``` . 
