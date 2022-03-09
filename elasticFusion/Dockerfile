@@ -96,7 +96,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y --allow-unauthe
       && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /root/catkin_ws/src
-RUN git clone https://github.com/markusltnr/elastic_fusion_ros.git
+RUN git clone https://github.com/Sasha-ObjectMatching-Pipeline/elastic_fusion_ros.git
 WORKDIR /root/catkin_ws/
 RUN . /opt/ros/melodic/setup.bash; catkin build
 

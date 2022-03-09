@@ -75,7 +75,7 @@ RUN apt-get install -y libtool ros-melodic-eigen-conversions ros-melodic-tf ros-
 RUN apt-get update
 RUN apt-get install -y ros-melodic-cv-bridge ros-melodic-pcl-conversions ros-melodic-pcl-ros
 
-RUN git clone https://github.com/markusltnr/voxblox.git ~/catkin_ws/src/voxblox
+RUN git clone https://github.com/Sasha-ObjectMatching-Pipeline/voxblox.git ~/catkin_ws/src/voxblox
 RUN cd ~/catkin_ws/src/ && wstool init . ./voxblox/voxblox_https.rosinstall
 RUN cd ~/catkin_ws/src/ && wstool update
 RUN cd ~/catkin_ws/ && catkin build eigen_catkin

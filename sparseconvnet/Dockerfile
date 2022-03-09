@@ -117,7 +117,7 @@ RUN \
   curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash && \
   apt-get install git-lfs
 
-RUN git clone --branch robot_experiments https://github.com/markusltnr/sparseconvnet_ros.git ~/catkin_build_ws/src/sparseconvnet_ros
+RUN git clone --branch robot_experiments https://github.com/Sasha-ObjectMatching-Pipeline/sparseconvnet_ros.git ~/catkin_build_ws/src/sparseconvnet_ros
 RUN cd ~/catkin_build_ws/ && catkin build
 RUN source ~/catkin_build_ws/devel/setup.bash
 #RUN cd ~/catkin_build_ws/src/sparseconvnet_ros && bash develop.sh

@@ -1,3 +1,15 @@
+We used the Toyota HSR with Ubuntu 18.04 to execute this code, which lead to the results presented in
+```
+@article{langer2022where,
+  title={Where Does It Belong? Autonomous Object Mapping in Open-World Settings},
+  author={Langer, Edith and Patten, Timothy and Vincze, Markus},
+  journal={Frontiers in Robotics and AI},
+  pages={???},
+  year={2022},
+  publisher={Frontiers}
+}
+```
+
 On the first start, run 
 ```
 xhost local:docker

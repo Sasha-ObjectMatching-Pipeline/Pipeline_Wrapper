@@ -13,9 +13,8 @@ RUN apt-get update && apt-get -qq -y --allow-unauthenticated install \
 	ros-melodic-move-base-msgs
 WORKDIR /home/v4r/catkin_ws/src
 
-RUN git clone https://github.com/markusltnr/table_extractor.git
-RUN git clone https://github.com/markusltnr/edith_msgs.git
-#RUN git clone https://gitlab+deploy-token-43:zkdqJHaArD_VVZVYXJUy@rgit.acin.tuwien.ac.at/leitnermrks/stare_at_tables.git
+RUN git clone https://github.com/Sasha-ObjectMatching-Pipeline/table_extractor.git
+RUN git clone https://github.com/Sasha-ObjectMatching-Pipeline/obj_det_ppf_matching_msgs.git
 RUN git clone https://github.com/IFL-CAMP/tf_bag.git
 RUN pip install --upgrade setuptools
 RUN pip install pyrsistent==0.16.1 transforms3d==0.3.1 open3d_ros_helper==0.2.0.3 jsonschema==2.4 

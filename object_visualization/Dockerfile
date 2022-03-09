@@ -63,8 +63,8 @@ RUN apt-get update && apt-get install git
 RUN apt-get install --no-install-recommends -y --allow-unauthenticated mongodb ros-melodic-mongodb-store
 
 WORKDIR /root/catkin_ws/src
-RUN git clone https://github.com/markusltnr/edith_visualization.git
-RUN git clone https://github.com/markusltnr/edith_msgs.git 
+RUN git clone https://github.com/Sasha-ObjectMatching-Pipeline/object_visualization.git
+RUN git clone https://github.com/Sasha-ObjectMatching-Pipeline/obj_det_ppf_matching_msgs.git
 
 # Run catkin build
 RUN /bin/bash -c  '. /opt/ros/melodic/setup.bash; cd ~/catkin_ws/; catkin build'

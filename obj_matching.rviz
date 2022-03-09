@@ -75,7 +75,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/MarkerArray
       Enabled: false
-      Marker Topic: /edith_visualization_service/marker
+      Marker Topic: /object_visualization_service/marker
       Name: MarkerArray
       Namespaces:
         {}
@@ -104,7 +104,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /edith_visualization_service/permanent_objects
+      Topic: /object_visualization_service/permanent_objects
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -132,7 +132,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /edith_visualization_service/candidate_objects
+      Topic: /object_visualization_service/candidate_objects
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -160,7 +160,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /edith_visualization_service/visualization
+      Topic: /object_visualization_service/visualization
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
